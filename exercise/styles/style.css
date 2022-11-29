@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Courier New", Courier, monospace;
+}
+
+.container {
+    width: 100%;
+    max-width: 50rem;
+    height: 100%;
+    max-height: 25rem;
+    position: relative;
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 2rem;
+    background-color: hsl(0, 0%, 74%);
+}
+
+.containerAdded {
+    width: 25rem;
+    height: 5rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 2rem;
+    background-color: hsl(0, 0%, 33%);
+    color: #ffffff;
+    margin: 5rem;
+}
+
+.article-wrapper {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 2rem;
+  padding: 1rem;
+}
+
+button {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px rgb(0, 0, 0);
+  }
+  
+  /* 2. all the buttons have a hover effect where labal and button color changes */
+  button:hover {
+    background-color: #3e8e41;
+    color: #fff;
+}
+  
+  button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 0px rgb(0, 0, 0);
+    transform: translateY(9px);
+  }
+
+#button-remove{
+  font-size: 16px;
+  margin-top: 2rem;
+}
+
+#button-remove:hover{
+  background-color: #a03749;
+}
+
+.cursor {
+    cursor: not-allowed;
+}
